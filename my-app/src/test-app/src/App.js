@@ -8,7 +8,7 @@ import StatefulGreeting from './components/StatefulGreeting'
 function App() {
   return (
     <div className="App">
-      <StatefulGreeting greeting />
+      <StatefulGreeting greeting="I'm from the stateful class component!" />
     </div>
   );
 }
